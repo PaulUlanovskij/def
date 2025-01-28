@@ -1,0 +1,115 @@
+[
+  {
+    "stat": 19,
+    "text": "The window stands broken in its frame. Cold wind blows in.",
+    "options": [
+      { "text": "Look out.", "link": 1},
+      { "text": "Assess the damage.", "link": 2},
+      { "text": "Leave.", "link": 2147483647}
+    ]
+  },
+  {
+    "stat": 19,
+    "text": "The morning light hurts your eyes. It's hazy, but you see the ocean and some war-torn buildings...",
+    "options": [
+      { "text": "Assess the damage.", "link": 2},
+      { "text": "Leave.", "link": 2147483647}
+    ] 
+  },
+  {
+    "stat": 5,
+    "target": 8,
+    
+    "success": 3,
+    "fail": 14
+  },
+  {
+    "stat" : 5,
+    "text": "The shards face outward. Whatever broke this window came from the inside.",
+    "options": [
+      {"text": "Did I break it with my own hands? (Look at them.)", "link": 4}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "A fine web of scarring covers the back of your right hand, but none of it is recent.",
+    "options": [
+      {"text": "What did this then?", "link": 5}
+    ]
+  },  
+  {
+    "stat": 5,
+    "text": "More likely a projectile than a held object. There are no fragments on the floor from pulling a tool back in after impact.",
+    "options": [
+      {"text": "Wait, what am I doing?", "link": 6},
+      {"text": "Assess the size of the impact.", "link": 7}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "Something you've done before.",
+    "options": [
+      {"text": "Assess the size of the impact.", "link": 7}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "It is too large for a bullet yet too small for a piece of furniture. You're looking for something heavy and larger than your fist.",
+    "options": [
+      {"text": "Next", "link": 8}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "Like the green shoe that's on the hat rack in the corner, which coincidentally is missing its friend.",
+    "options": [
+      {"text": "Next", "link": 9}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "Congratulations, you smashed the window with your own shoe. Now you only have one. If you're lucky you can still find the other on the balcony outside. The door to it should be outside your room.",
+    "options": [
+      {"text": "Maybe it wasn't me?", "link": 10},
+      {"text": "I should go and get that shoe.", "link": 12},
+      {"text": "I don't need it. I do not need *anyone*", "link": 13}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "You mean someone else took your shoe off and smashed the window with it?",
+    "options": [
+      {"text": "Next", "link": 11}
+    ]
+  },
+  {
+    "stat": 0,
+    "text": "This person also *forced* the drinks on you.",
+    "options": [
+      {"text": "I should go and get that shoe.", "link": 12},
+      {"text": "I don't need it. I don't need *anyone*.", "link": 13}
+    ]
+  },
+  {
+    "stat": 19,
+    "text": "A cool wind gushes in. Your toes curl up from the cold.",
+    "options": [
+      {"text": "Leave", "link": 2147483647}
+    ]
+  },
+  {
+    "stat": 7,
+    "text": "The window agrees. Its cracked smile is cold and sparkly.",
+    "options": [
+      {"text": "Leave", "link": 2147483647}
+    ]
+  },
+  {
+    "stat": 5,
+    "text": "What do you mean *assess the damage*? How would you do that? What are you even trying to do?",
+    "options": [
+      {"text": "Look out.", "link": 1},
+      {"text": "Leave", "link": 2147483647}
+    ]
+  }
+]

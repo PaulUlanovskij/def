@@ -1,0 +1,49 @@
+{
+    //general
+    "character_name":"",
+    "gender":"",
+    "age":0,
+
+    //stats
+    "stats":[
+        0,0,0,0,0,0,//intellect
+        0,0,0,0,0,0,//psyche
+        0,0,0,0,0,0,//physique
+        0,0,0,0,0,0//motorics
+    ],
+    "mods":[
+        0,0,0,0,0,0,
+        0,0,0,0,0,0,
+        0,0,0,0,0,0,
+        0,0,0,0,0,0
+    ],
+    
+    //style
+    "clothes":"",
+    "hair":"",
+    "affectations":"",
+    "ethnicity":"",
+    "language":"",
+
+    //family
+    "family_background":"",
+    "siblings":[
+        "John Smith 23 male netrunner",
+        "..."
+    ],
+    
+    //motivations
+    "traits":"",
+    "valued_person":"",
+    "value_most":"",
+    "feel_about_people":"",
+    "valued_posessions":"",
+    
+    //life events ( 1 per each year after 16 y.o.)
+    "life_events":[
+        "I mean..",
+        "you know what to write here",
+        "right?"
+    ]
+    // delete comments iwhen you are done
+}
