@@ -1,16 +1,16 @@
 namespace def;
 
 public class Item{
-  public string name = "";
-  public string description = "";
-  public int amount = 0;
+  public string name;
+  public string description;
+  public int amount;
 }
 public class CharacterSheet
 {
   //General info
-  public string character_name = "";
-  public string gender = "";
-  public int age = 0;
+  public string character_name;
+  public string gender;
+  public int age;
   
   //Stats and mods
   public int[] stats = new int[24];

@@ -4,7 +4,7 @@ public static class CharacterEditLogic {
   public static void Start()
   {
 
-    PlayerUILogic.LoadCharacter();
+    Program.character = PlayerUILogic.LoadCharacter();
 
 
     Console.Title = "S - show stats; R - roll; I - inventory; L - leave;";

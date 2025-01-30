@@ -8,11 +8,13 @@ class Program
   public static List<CharacterSheet> connected_player_characters = new();
   public static string character_file_path = "joe.json";
 
-  public static JsonSerializerOptions jso = new() { AllowTrailingCommas = true, IncludeFields = true, ReadCommentHandling = JsonCommentHandling.Skip };
+  public static JsonSerializerOptions jso = new() { AllowTrailingCommas = true, IncludeFields = true, ReadCommentHandling = JsonCommentHandling.Skip, WriteIndented = true };
 
   public static bool run_supportThreads;
   static void Main(string[] args)
   {
+    //WriteJson("charcter_sheet.json", character);
+    //return;
     if (ConnectionManager.SetupPortForward())
     {
       run_supportThreads = true;
